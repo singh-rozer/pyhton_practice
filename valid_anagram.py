@@ -36,7 +36,7 @@ class Solution:
         return True
 
 #Approach4: Counter method (to count frequency)(it's a dict subclass)
-#complexity in time = O(n), space = O(n)
+#complexity in time = O(n), space = O(1)
 class Solution:
     def isAnagram(self,s:str,t:str)->bool:
         return Counter(s) == Counter(t)
